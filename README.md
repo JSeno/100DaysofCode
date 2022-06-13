@@ -6,4 +6,4 @@
 - Day 1: Ok
 - Day 2: Ok
 - Day 3: Ok
-- Day 4: Não iniciado.
+- Day 4: Iniciado.
