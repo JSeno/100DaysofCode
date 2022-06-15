@@ -1,3 +1,4 @@
+# TODO rever essa aula, meu entendimento foi fraco.
 # 🚨 Don't change the code below 👇
 row1 = ["⬜️","⬜️","⬜️"]
 row2 = ["⬜️","⬜️","⬜️"]
@@ -9,11 +10,11 @@ position = input("Where do you want to put the treasure? ")
 
 #Write your code below this row 👇
 
-horizontal = position[0]
-vertical = position[1]
+horizontal = int(position[0])
+vertical = int(position[1])
 
-
-
+selected_row = map[vertical -1]
+selected_row[horizontal -1] = "💎"
 
 #Write your code above this row 👆
 
